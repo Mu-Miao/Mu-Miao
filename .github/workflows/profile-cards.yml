@@ -1,0 +1,38 @@
+name: Refresh profile cards
+
+on:
+  schedule:
+    - cron: '17 2 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/render_profile.py
+      - .github/workflows/profile-cards.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Render public profile cards
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/render_profile.py
+      - name: Commit refreshed graphics
+        run: |
+          git add assets/ data/public-stats.json
+          if git diff --cached --quiet; then
+            echo "Profile cards are already current."
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Refresh public profile cards'
+          git push

@@ -1,0 +1,28 @@
+{
+  "updated": "2026-10-20",
+  "source": "GitHub REST API; public owned repositories only",
+  "public_repos": 5,
+  "original_projects": 3,
+  "stars": 1,
+  "followers": 4,
+  "projects": [
+    "HelmDesk",
+    "Sunward",
+    "cube"
+  ],
+  "languages_bytes": {
+    "C": 5498757,
+    "TypeScript": 877261,
+    "Python": 356300,
+    "Vue": 343268,
+    "CSS": 206011,
+    "Swift": 92643,
+    "HTML": 15479,
+    "JavaScript": 12596,
+    "Assembly": 12022,
+    "Shell": 6115,
+    "Linker Script": 5309,
+    "Mako": 593,
+    "Dockerfile": 568
+  }
+}
