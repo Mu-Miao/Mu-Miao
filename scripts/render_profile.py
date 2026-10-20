@@ -36,12 +36,13 @@ def collect():
 def text(x, y, value, size=20, fill='currentColor', weight=400, extra=''):
     return f'<text x="{x}" y="{y}" fill="{fill}" font-size="{size}" font-weight="{weight}" {extra}>{escape(str(value))}</text>'
 
-def svg(name, theme, width, height, title, body, defs='', styles=''):
+def svg(name, theme, width, height, title, body, defs='', styles='', framed=True):
     p = PALETTES[theme]
+    frame = f'<rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="24" fill="{p["bg"]}" stroke="{p["line"]}"/>' if framed else ''
     content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none" role="img" aria-labelledby="title">
 <title id="title">{escape(title)}</title><defs>{defs}</defs>
 <style>text{{font-family:{FONT}}}{styles}</style>
-<rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="24" fill="{p['bg']}" stroke="{p['line']}"/>{body}</svg>'''
+{frame}{body}</svg>'''
     (ASSETS / f'{name}-{theme}.svg').write_text(content)
 
 def header(theme):
@@ -133,8 +134,8 @@ def dashboard(theme):
         raw=(ASSETS/f'{name}-{theme}.svg').read_text()
         cards.append(raw[raw.index('</title>')+len('</title>'):raw.rindex('</svg>')])
     title='公开足迹与代码语言统计'
-    svg('dashboard',theme,1200,300,title,f'<g>{cards[0]}</g><g transform="translate(620 0)">{cards[1]}</g>')
-    svg('dashboard-mobile',theme,600,620,title,f'<g transform="translate(10 0)">{cards[0]}</g><g transform="translate(10 320)">{cards[1]}</g>')
+    svg('dashboard',theme,1200,300,title,f'<g>{cards[0]}</g><g transform="translate(620 0)">{cards[1]}</g>',framed=False)
+    svg('dashboard-mobile',theme,600,620,title,f'<g transform="translate(10 0)">{cards[0]}</g><g transform="translate(10 320)">{cards[1]}</g>',framed=False)
 
 def blog_banner(theme):
     p=PALETTES[theme]

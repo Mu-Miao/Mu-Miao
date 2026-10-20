@@ -9,12 +9,7 @@
 
 ### 公开足迹 · Public signals
 
-<a href="https://github.com/Mu-Miao/Mu-Miao/blob/main/docs/profile-cards.md"><picture>
-  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/dashboard-mobile-dark.svg">
-  <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/dashboard-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/dashboard-dark.svg">
-  <img alt="公开仓库、原创项目、Stars、关注者与代码语言统计；点击查看统计口径" src="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/dashboard-light.svg" width="100%">
-</picture></a>
+<a href="https://github.com/Mu-Miao/Mu-Miao/blob/main/docs/profile-cards.md"><picture><source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/dashboard-mobile-dark.svg"><source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/dashboard-mobile-light.svg"><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/dashboard-dark.svg"><img alt="公开仓库、原创项目、Stars、关注者与代码语言统计；点击查看统计口径" src="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/dashboard-light.svg" width="100%"></picture></a>
 
 <sub>公开数据每日更新 · 语言按代码字节统计 · <a href="https://github.com/Mu-Miao/Mu-Miao/blob/main/docs/profile-cards.md">统计口径与更新说明</a></sub>
 
