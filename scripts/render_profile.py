@@ -122,6 +122,19 @@ def projects(theme):
         body=f'''<rect x="1" y="1" width="1198" height="158" rx="23" fill="{p['panel']}"/><path d="M26 34V126" stroke="{p['pink']}" stroke-width="3" stroke-linecap="round"/>
 {text(48,51,number,13,p['pink'],500,'letter-spacing="2"')}{text(92,56,title,28,p['fg'],650)}{text(92,87,desc,18,p['muted'])}{text(92,125,stack,14,p['pink'])}{text(1150,43,tag,12,p['muted'],400,'text-anchor="end" letter-spacing="1"')}{text(1147,123,'↗',37,p['fg'],300,'text-anchor="end"')}'''
         svg(name,theme,1200,160,f'{title} · {desc}',body)
+        mobile_body=f'''<rect x="1" y="1" width="638" height="208" rx="23" fill="{p['panel']}"/><path d="M20 30V180" stroke="{p['pink']}" stroke-width="3" stroke-linecap="round"/>
+{text(40,38,tag,11,p['pink'],500,'letter-spacing="1"')}{text(40,79,title,28,p['fg'],650)}{text(40,114,desc[:18],18,p['muted'])}{text(40,141,desc[18:],18,p['muted'])}{text(40,183,stack,14,p['pink'])}{text(598,183,'↗',30,p['fg'],300,'text-anchor="end"')}'''
+        svg(name+'-mobile',theme,640,210,f'{title} · {desc}',mobile_body)
+
+def dashboard(theme):
+    # Nested vector cards retain their text accessibility and render without dependencies.
+    cards=[]
+    for name in ['stats','languages']:
+        raw=(ASSETS/f'{name}-{theme}.svg').read_text()
+        cards.append(raw[raw.index('</title>')+len('</title>'):raw.rindex('</svg>')])
+    title='公开足迹与代码语言统计'
+    svg('dashboard',theme,1200,300,title,f'<g>{cards[0]}</g><g transform="translate(620 0)">{cards[1]}</g>')
+    svg('dashboard-mobile',theme,600,620,title,f'<g transform="translate(10 0)">{cards[0]}</g><g transform="translate(10 320)">{cards[1]}</g>')
 
 def blog_banner(theme):
     p=PALETTES[theme]
@@ -136,6 +149,7 @@ def main():
         header(theme)
         statistics(theme,data)
         languages(theme,data)
+        dashboard(theme)
         projects(theme)
         blog_banner(theme)
     (ROOT/'data').mkdir(exist_ok=True)

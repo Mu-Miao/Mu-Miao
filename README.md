@@ -9,18 +9,22 @@
 
 ### 公开足迹 · Public signals
 
-<a href="https://github.com/Mu-Miao?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/stats-dark.svg"><img alt="公开仓库、原创项目、项目 Stars 与关注者统计" src="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/stats-light.svg" width="49%"></picture></a>
-<a href="https://github.com/Mu-Miao/Mu-Miao/blob/main/docs/profile-cards.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/languages-dark.svg"><img alt="公开原创项目的代码语言构成，按 GitHub 统计的代码字节数计算" src="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/languages-light.svg" width="49%"></picture></a>
+<a href="https://github.com/Mu-Miao/Mu-Miao/blob/main/docs/profile-cards.md"><picture>
+  <source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/dashboard-mobile-dark.svg">
+  <source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/dashboard-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/dashboard-dark.svg">
+  <img alt="公开仓库、原创项目、Stars、关注者与代码语言统计；点击查看统计口径" src="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/dashboard-light.svg" width="100%">
+</picture></a>
 
 <sub>公开数据每日更新 · 语言按代码字节统计 · <a href="https://github.com/Mu-Miao/Mu-Miao/blob/main/docs/profile-cards.md">统计口径与更新说明</a></sub>
 
 ### 把想法写成能运行的东西 · Projects
 
-<a href="https://github.com/Mu-Miao/HelmDesk"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/helmdesk-dark.svg"><img alt="HelmDesk · 领航台：本机 CLI Agent 协作工作台，整合任务队列、代码差异、验证与用量。TypeScript / React / SwiftUI / MCP。" src="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/helmdesk-light.svg" width="100%"></picture></a>
+<a href="https://github.com/Mu-Miao/HelmDesk"><picture><source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/helmdesk-mobile-dark.svg"><source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/helmdesk-mobile-light.svg"><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/helmdesk-dark.svg"><img alt="HelmDesk · 领航台：本机 CLI Agent 协作工作台，整合任务队列、代码差异、验证与用量。TypeScript / React / SwiftUI / MCP。" src="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/helmdesk-light.svg" width="100%"></picture></a>
 
-<a href="https://github.com/Mu-Miao/cube"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/cube-dark.svg"><img alt="Cube：连接前后端与设备，探索实时通信、设备服务与 OTA。Vue 3 / FastAPI / MQTT / WebSocket。" src="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/cube-light.svg" width="100%"></picture></a>
+<a href="https://github.com/Mu-Miao/cube"><picture><source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/cube-mobile-dark.svg"><source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/cube-mobile-light.svg"><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/cube-dark.svg"><img alt="Cube：连接前后端与设备，探索实时通信、设备服务与 OTA。Vue 3 / FastAPI / MQTT / WebSocket。" src="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/cube-light.svg" width="100%"></picture></a>
 
-<a href="https://github.com/Mu-Miao/Sunward"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/sunward-dark.svg"><img alt="Sunward · 逐日计划：双轮小车固件，包含轮速闭环、编码器里程、航向保持与巡线。C / STM32 HAL / PI Control。" src="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/sunward-light.svg" width="100%"></picture></a>
+<a href="https://github.com/Mu-Miao/Sunward"><picture><source media="(max-width: 767px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/sunward-mobile-dark.svg"><source media="(max-width: 767px)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/sunward-mobile-light.svg"><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/sunward-dark.svg"><img alt="Sunward · 逐日计划：双轮小车固件，包含轮速闭环、编码器里程、航向保持与巡线。C / STM32 HAL / PI Control。" src="https://raw.githubusercontent.com/Mu-Miao/Mu-Miao/main/assets/sunward-light.svg" width="100%"></picture></a>
 
 ### 最近写下的 · Field notes
 
