@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="382" viewBox="0 0 1200 382" fill="none">
+<title>木木木 / Mu-Miao</title>
+<desc>把想法，做成可用的东西。AI 工具、Web 与嵌入式。</desc>
+<defs><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#9aafb3" opacity=".16"/></pattern></defs>
+<rect width="1200" height="382" rx="22" fill="#111e25"/>
+<rect x="750" y="24" width="426" height="334" rx="12" fill="url(#grid)"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+<circle cx="59" cy="52" r="5" fill="#9de3c3"/>
+<text x="77" y="58" fill="#9aafb3" font-size="17" letter-spacing="2.4">MU-MIAO / BUILDER'S NOTEBOOK</text>
+<text x="52" y="158" fill="#edf3ed" font-size="76" font-weight="650" letter-spacing="5">木木木<tspan font-size="28" font-weight="400" fill="#9aafb3" letter-spacing="1" dx="22">Mu-Miao</tspan></text>
+<text x="54" y="225" fill="#edf3ed" font-size="38" font-weight="500">把想法，做成可用的东西。</text>
+<text x="56" y="264" fill="#9aafb3" font-size="19" letter-spacing=".4">Small tools. Connected devices. Ideas in motion.</text>
+<path d="M55 300H706" stroke="#2c4148"/>
+<text x="56" y="339" fill="#9de3c3" font-size="16" letter-spacing="2">AI TOOLS</text>
+<text x="203" y="339" fill="#9aafb3" font-size="16">/</text>
+<text x="237" y="339" fill="#9de3c3" font-size="16" letter-spacing="2">WEB</text>
+<text x="318" y="339" fill="#9aafb3" font-size="16">/</text>
+<text x="352" y="339" fill="#9de3c3" font-size="16" letter-spacing="2">EMBEDDED</text>
+</g>
+<circle cx="980" cy="172" r="111" stroke="#2c4148"/>
+<circle cx="980" cy="172" r="83" stroke="#2c4148" stroke-dasharray="3 8"/>
+<circle cx="980" cy="172" r="49" fill="#182e34"/>
+<g stroke="#9de3c3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M980 144V200M956 160H1004M980 160L955 187M980 160L1005 187"/>
+<path d="M961 126L980 107L999 126"/>
+</g>
+<path d="M824 239C799 167 842 83 929 77" stroke="#9de3c3" stroke-width="2"/>
+<path d="M920 71L930 77L923 85" stroke="#9de3c3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1061" cy="98" r="16" fill="#edbb76"/>
+<path d="M1061 73V66M1061 130V123M1036 98H1029M1093 98H1086" stroke="#edbb76" stroke-width="2" stroke-linecap="round"/>
+<path d="M912 264L875 299H819M1050 256L1084 292H1131" stroke="#2c4148" stroke-width="2"/>
+<circle cx="819" cy="299" r="5" fill="#9de3c3"/>
+<circle cx="1131" cy="292" r="5" fill="#edbb76"/>
+<g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" letter-spacing="1.5" fill="#9aafb3">
+<text x="788" y="327">CODE</text><text x="1082" y="320">MOTION</text>
+<text x="932" y="348">KEEP MAKING.</text>
+</g>
+</svg>
