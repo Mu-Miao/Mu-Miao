@@ -1,27 +1,29 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "source": "GitHub REST API; public owned repositories only",
-  "public_repos": 5,
-  "original_projects": 3,
-  "stars": 1,
+  "public_repos": 6,
+  "original_projects": 4,
+  "stars": 2,
   "followers": 4,
   "projects": [
     "HelmDesk",
     "Sunward",
-    "cube"
+    "cube",
+    "mashu-blog"
   ],
   "languages_bytes": {
     "C": 5498757,
-    "TypeScript": 885838,
-    "Python": 356300,
+    "TypeScript": 1071631,
+    "Python": 442520,
     "Vue": 343268,
-    "CSS": 206011,
+    "CSS": 228410,
     "Swift": 92643,
-    "HTML": 15479,
-    "JavaScript": 12596,
+    "JavaScript": 78754,
+    "HTML": 16716,
+    "Shell": 14787,
     "Assembly": 12022,
-    "Shell": 6115,
     "Linker Script": 5309,
+    "Batchfile": 1890,
     "Mako": 593,
     "Dockerfile": 568
   }
