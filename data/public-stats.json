@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "source": "GitHub REST API; public owned repositories only",
   "public_repos": 9,
   "original_projects": 7,
@@ -21,7 +21,7 @@
     "Vue": 343268,
     "CSS": 244558,
     "Swift": 141578,
-    "JavaScript": 116169,
+    "JavaScript": 116550,
     "Assembly": 48088,
     "HTML": 26768,
     "C++": 21049,
