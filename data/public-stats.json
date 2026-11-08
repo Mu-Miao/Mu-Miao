@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "source": "GitHub REST API; public owned repositories only",
-  "public_repos": 9,
-  "original_projects": 7,
+  "public_repos": 7,
+  "original_projects": 5,
   "stars": 2,
   "followers": 6,
   "projects": [
@@ -10,21 +10,19 @@
     "Sunward",
     "Sunward_Data",
     "cube",
-    "mashu-blog",
-    "shuangren-sheidingju",
-    "study"
+    "mashu-blog"
   ],
   "languages_bytes": {
     "C": 13602393,
     "TypeScript": 1204884,
     "Python": 582123,
     "Vue": 343268,
-    "CSS": 244558,
+    "CSS": 228814,
     "Swift": 141578,
-    "JavaScript": 116550,
+    "JavaScript": 88986,
     "Assembly": 48088,
-    "HTML": 26768,
     "C++": 21049,
+    "HTML": 17032,
     "Shell": 15441,
     "Linker Script": 12442,
     "CMake": 3278,
